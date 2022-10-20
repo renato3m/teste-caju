@@ -1,0 +1,12 @@
+.sobre p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+@media only screen and (min-width: 900px) {
+  .sobre p {
+    width: 618px;
+  }
+}

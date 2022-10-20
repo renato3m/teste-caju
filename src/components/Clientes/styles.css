@@ -1,0 +1,29 @@
+.clientes {
+  margin-bottom: 2rem;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 0;
+}
+
+.logo-cliente {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .logo-cliente {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .logo-cliente {
+    width: 25%;
+  }
+}
